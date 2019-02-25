@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 import { AuthUserContext } from '../Session';
 import SignOutButton from '../SignOut';
 import * as ROUTES from '../../constants/routes';
+import styles from './Navigation.module.css';
 
 const Navigation = () => (
-    <div>
+    <div className={styles.nav}>
         <AuthUserContext.Consumer>
             {authUser =>
                 authUser ? <NavigationAuth /> : <NavigationNonAuth />
@@ -16,31 +17,25 @@ const Navigation = () => (
 
 const NavigationAuth = () => (
     <ul>
-        <li>
-            <Link to={ROUTES.LANDING}>Landing</Link>
+        <li className={styles.navListLeft}>
+            <Link className={styles.text} to={ROUTES.HOME}>Home</Link>
         </li>
-        <li>
-            <Link to={ROUTES.HOME}>Home</Link>
-        </li>
-        <li>
-            <Link to={ROUTES.ACCOUNT}>Account</Link>
-        </li>
-        <li>
-            <Link to={ROUTES.ADMIN}>Admin</Link>
-        </li>
-        <li>
+        <li className={styles.navListRight}>
             <SignOutButton />
+        </li>
+        <li className={styles.navListRight}>
+            <Link className={styles.text} to={ROUTES.ACCOUNT}>Profile</Link>
         </li>
     </ul>
 );
 
 const NavigationNonAuth = () => (
     <ul>
-        <li>
-            <Link to={ROUTES.LANDING}>Landing</Link>
+        <li className={styles.navListLeft}>
+            <Link className={styles.text} to={ROUTES.LANDING}>Like a Local</Link>
         </li>
-        <li>
-            <Link to={ROUTES.SIGN_IN}>Sign In</Link>
+        <li className={styles.navListRight}>
+            <Link className={styles.text} to={ROUTES.SIGN_IN}>Sign In</Link>
         </li>
     </ul>
 );

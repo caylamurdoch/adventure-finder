@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.text {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    margin: 0px;
+}
+
+img {
+    height: 40px;
+}
+
+.nav {
+    background-color: #333;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    background-color: #111;
+    color: #eee;
+}
+
+.navListLeft {
+    float: left;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navListRight {
+    float: right;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navSignOut {
+    background:none!important;
+    color:inherit;
+    border:none;
+    padding:0!important;
+    font: inherit;
+    cursor: pointer;
+}
