@@ -11,24 +11,18 @@ ul {
 }
 
 li {
-    text-decoration: none;
-    color: #fff;
     padding: 15px;
     margin: 0px;
 }
 
-img {
-    height: 40px;
-}
-
 .nav {
-    background-color: #333;
+    background-color: #140824;
     overflow: hidden;
     text-decoration: none;
 }
 
 .nav li:hover {
-    background-color: #111;
+    background-color: #655B70;
     color: #eee;
 }
 

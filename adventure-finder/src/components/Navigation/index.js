@@ -32,7 +32,7 @@ const NavigationAuth = () => (
 const NavigationNonAuth = () => (
     <ul>
         <li className={styles.navListLeft}>
-            <Link className={styles.text} to={ROUTES.LANDING}>Like a Local</Link>
+            <Link className={styles.text} to={ROUTES.LANDING}>Home</Link>
         </li>
         <li className={styles.navListRight}>
             <Link className={styles.text} to={ROUTES.SIGN_IN}>Sign In</Link>

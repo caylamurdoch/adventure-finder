@@ -1,8 +1,19 @@
 import React from 'react';
+import './Landing.css';
+import forest from '../../assets/forest.jpg';
 
 const Landing = () => (
-    <div>
-        <h1>Landing</h1>
+    <div class="container">
+        <div class="image-cropper center">
+            <img src={forest} alt={"forest"} />
+        </div>
+            <div class="text-block">
+                <h1>Welcome to Adventure Finder!</h1>
+                <div class="separator"/>
+                <p>Want to share your favorite adventures with the world?</p>
+                <p>Need inspiration for your next adventure?</p>
+                <p>Sign in to get started!</p>
+            </div>
     </div>
 );
 

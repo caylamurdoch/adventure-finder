@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+}
+
+.image-cropper {
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.text-block {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 180px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separator {
+    height: 1px;
+    width: 60px;
+    margin: 20px auto;
+    background: #fff;
+}

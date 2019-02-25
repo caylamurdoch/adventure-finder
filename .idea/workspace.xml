@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c7fad93-000a-4591-a049-aa9a10f9337b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/SignOut/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/SignOut/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/Navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/Navigation/Navigation.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+            <state relative-caret-position="394">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -49,10 +59,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Navigation/Navigation.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignOut/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/constants/routes.js" />
         <option value="$PROJECT_DIR$/adventure-finder/firebaseCred.env" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Firebase/context.js" />
@@ -87,9 +117,12 @@
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Firebase/firebase.js" />
         <option value="$PROJECT_DIR$/adventure-finder/.env.local" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/App/index.js" />
-        <option value="$PROJECT_DIR$/adventure-finder/src/components/Navigation/Navigation.module.css" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/SignOut/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.module.css" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/Navigation/Navigation.module.css" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js" />
       </list>
     </option>
   </component>
@@ -130,6 +163,22 @@
               <item name="adventure-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs-356-desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs-356-desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="adventure-finder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs-356-desktop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs-356-desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="adventure-finder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs-356-desktop" type="b2602c69:ProjectViewProjectNode" />
@@ -185,7 +234,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15329000" />
+    <option name="totallyTimeSpent" value="18722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -251,13 +300,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/constants/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -410,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Firebase/firebase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -440,6 +472,26 @@
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/assets/mountain.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Firebase/firebase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignOut/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -452,15 +504,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Navigation/Navigation.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js">
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+        <state relative-caret-position="263">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
