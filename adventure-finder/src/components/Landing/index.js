@@ -10,8 +10,8 @@ const Landing = () => (
             <div class="text-block">
                 <h1>Welcome to Adventure Finder!</h1>
                 <div class="separator"/>
-                <p>Want to share your favorite adventures with the world?</p>
-                <p>Need inspiration for your next adventure?</p>
+                <p>Share your favorite adventures.</p>
+                <p>Get inspiration from others.</p>
                 <p>Sign in to get started!</p>
             </div>
     </div>
