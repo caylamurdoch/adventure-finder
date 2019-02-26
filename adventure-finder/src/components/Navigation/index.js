@@ -33,7 +33,7 @@ const NavigationAuth = () => (
 const NavigationNonAuth = () => (
     <ul>
         <Link className={styles.text} to={ROUTES.LANDING}>
-            <li className={styles.navListLeft}>Home</li>
+            <li className={styles.navListLeft}>Adventure Finder</li>
         </Link>
         <Link className={styles.text} to={ROUTES.SIGN_IN}>
             <li className={styles.navListRight}>Sign In</li>

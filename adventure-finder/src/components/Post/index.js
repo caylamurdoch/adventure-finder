@@ -4,6 +4,7 @@ import styles from './Post.module.css';
 import * as ROUTES from "../../constants/routes";
 import {withRouter} from "react-router-dom";
 import {withFirebase} from "../Firebase";
+import {withAuthorization} from "../Session";
 
 const AddPostPage = () => (
     <div className={styles["container-add"]}>
@@ -33,6 +34,7 @@ class RoutePostForm extends Component {
     }
 
     onSubmit(event) {
+        event.preventDefault();
         if (!event.target.checkValidity()) {
             this.setState({ displayErrors: true });
             return;
@@ -83,51 +85,63 @@ class RoutePostForm extends Component {
                     value={title}
                     placeholder="Title"
                     onChange={this.onChange}
+                    className={styles.input}
                     required
-                />
-                <input
-                    id="imageURL"
-                    name="imageURL"
-                    type="url"
-                    value={imageURL}
-                    placeholder="Image URL"
-                    onChange={this.onChange}
-                    required
-                />
-                <input
-                    id="cost"
-                    name="cost"
-                    type="number"
-                    value={cost}
-                    placeholder="Cost"
-                    data-parse="cost"
-                    onChange={this.onChange}
-                    required
-                />
-                <input
-                    id="location"
-                    name="location"
-                    type="text"
-                    value={location}
-                    placeholder="Location"
-                    onChange={this.onChange}
-                    required
-                />
-                <input
-                    id="description"
-                    name="description"
-                    type="text"
-                    value={description}
-                    placeholder="Description"
-                    onChange={this.onChange}
-                    required
-                />
-                <button>Add Post</button>
+                /><br />
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input
+                            id="imageURL"
+                            name="imageURL"
+                            type="url"
+                            value={imageURL}
+                            placeholder="Image URL"
+                            onChange={this.onChange}
+                            className={styles.input}
+                            required
+                        /><br />
+                        <input
+                            id="cost"
+                            name="cost"
+                            type="number"
+                            value={cost}
+                            placeholder="Cost"
+                            data-parse="cost"
+                            onChange={this.onChange}
+                            className={styles.input}
+                            required
+                        /><br />
+                        <input
+                            id="location"
+                            name="location"
+                            type="text"
+                            value={location}
+                            placeholder="Location"
+                            onChange={this.onChange}
+                            className={styles.input}
+                            required
+                        />
+                    </div>
+                    <div class="col-sm-6">
+                        <textarea
+                            id="description"
+                            name="description"
+                            type="text"
+                            value={description}
+                            placeholder="Description"
+                            onChange={this.onChange}
+                            className={styles["input-description"]}
+                            required
+                        />
+                    </div>
+                </div>
+                <button className={styles.btn}>Add Post</button>
             </form>
         );
     }
 }
 
+const condition = authUser => !!authUser;
 const PostForm = withRouter(withFirebase(RoutePostForm));
-export default AddPostPage;
+export default withAuthorization(condition)(AddPostPage);
 export { PostForm };
