@@ -1,0 +1,74 @@
+.form {
+    margin: 10px;
+    text-align: center;
+}
+
+.input {
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    margin: 10px;
+    padding: 5px 20px 5px 20px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.input:focus::-webkit-input-placeholder { color:transparent; }
+.input:focus:-moz-placeholder { color:transparent; }
+.input:focus::-moz-placeholder { color:transparent; }
+.input:focus:-ms-input-placeholder { color:transparent; }
+
+.input::-webkit-input-placeholder { color: #adadad;}
+.input:-moz-placeholder { color: #adadad;}
+.input::-moz-placeholder { color: #adadad;}
+.input:-ms-input-placeholder { color: #adadad;}
+
+.btn {
+    border-radius: 25px;
+    border: 1px solid #140824;
+    background: #140824;
+
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
+    width: 300px;
+
+    color: #eeeeee;}
+
+.btn:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #140824;
+}
+
+.container-login {
+    background-image: url('../../assets/forest.jpg');
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px 15px 15px;
+}
+
+.container-login h1 {
+    padding-bottom: 20px;
+}
+
+.wrap-login {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 33px 33px 33px;
+
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}

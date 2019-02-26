@@ -3,11 +3,14 @@ import { Link, withRouter } from 'react-router-dom';
 
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
+import styles from '../SignIn/SignIn.module.css';
 
 const SignUpPage = () => (
-    <div>
-        <h1>SignUp</h1>
+    <div className={styles["container-login"]}>
+        <div className={styles["wrap-login"]}>
+        <h1>Sign Up</h1>
         <SignUpForm />
+        </div>
     </div>
 );
 
@@ -72,36 +75,40 @@ class SignUpFormBase extends Component {
             username === '';
 
         return (
-            <form onSubmit={this.onSubmit}>
+            <form className={styles.form} onSubmit={this.onSubmit}>
                 <input
+                    className={styles.input}
                     name="username"
                     value={username}
                     onChange={this.onChange}
                     type="text"
                     placeholder="Full Name"
-                />
+                /><br />
                 <input
+                    className={styles.input}
                     name="email"
                     value={email}
                     onChange={this.onChange}
                     type="text"
                     placeholder="Email Address"
-                />
+                /><br />
                 <input
+                    className={styles.input}
                     name="passwordOne"
                     value={passwordOne}
                     onChange={this.onChange}
                     type="password"
                     placeholder="Password"
-                />
+                /><br />
                 <input
+                    className={styles.input}
                     name="passwordTwo"
                     value={passwordTwo}
                     onChange={this.onChange}
                     type="password"
                     placeholder="Confirm Password"
-                />
-                <button disabled={isInvalid} type="submit">
+                /><br />
+                <button className={styles.btn} disabled={isInvalid} type="submit">
                     Sign Up
                 </button>
 

@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
+import styles from '../SignIn/SignIn.module.css';
 
 const PasswordForgetPage = () => (
-    <div>
-        <h1>PasswordForget</h1>
-        <PasswordForgetForm />
+    <div className={styles["container-login"]}>
+        <div className={styles["wrap-login"]}>
+            <h1>Forgot Password?</h1>
+            <PasswordForgetForm />
+        </div>
     </div>
 );
 
@@ -48,15 +51,16 @@ class PasswordForgetFormBase extends Component {
         const isInvalid = email === '';
 
         return (
-            <form onSubmit={this.onSubmit}>
+            <form className={styles.form} onSubmit={this.onSubmit}>
                 <input
+                    className={styles.input}
                     name="email"
                     value={this.state.email}
                     onChange={this.onChange}
                     type="text"
                     placeholder="Email Address"
-                />
-                <button disabled={isInvalid} type="submit">
+                /><br />
+                <button className={styles.btn} disabled={isInvalid} type="submit">
                     Reset My Password
                 </button>
 

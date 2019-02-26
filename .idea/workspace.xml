@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c7fad93-000a-4591-a049-aa9a10f9337b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/cs-356-desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cs-356-desktop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adventure-finder/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/PasswordChange/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/PasswordChange/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/PasswordForget/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/PasswordForget/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/SignIn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/SignIn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/components/SignUp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/adventure-finder/src/components/SignUp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventure-finder/src/constants/roles.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,58 +33,77 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/App/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="161">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignIn/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js">
+        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignUp/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+            <state relative-caret-position="430">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js">
+        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignIn/SignIn.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="184">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/PasswordForget/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/adventure-finder/public/index.html">
+        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/PasswordChange/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="333">
+              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,14 +118,10 @@
         <option value="$PROJECT_DIR$/adventure-finder/src/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Session/context.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Session/withAuthentication.js" />
-        <option value="$PROJECT_DIR$/adventure-finder/src/components/PasswordForget/index.js" />
-        <option value="$PROJECT_DIR$/adventure-finder/src/components/SignIn/index.js" />
-        <option value="$PROJECT_DIR$/adventure-finder/src/components/PasswordChange/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Session/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Home/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Session/withAuthorization.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Account/index.js" />
-        <option value="$PROJECT_DIR$/adventure-finder/src/components/SignUp/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Admin/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/.gitignore" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Firebase/firebase.js" />
@@ -107,9 +131,14 @@
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.module.css" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Navigation/Navigation.module.css" />
         <option value="$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js" />
-        <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css" />
-        <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js" />
         <option value="$PROJECT_DIR$/adventure-finder/public/index.html" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/SignIn/index.js" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/SignUp/index.js" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/SignIn/SignIn.module.css" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/PasswordForget/index.js" />
+        <option value="$PROJECT_DIR$/adventure-finder/src/components/PasswordChange/index.js" />
       </list>
     </option>
   </component>
@@ -171,7 +200,7 @@
               <item name="adventure-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="PasswordChange" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs-356-desktop" type="b2602c69:ProjectViewProjectNode" />
@@ -179,7 +208,7 @@
               <item name="adventure-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="SignOut" type="462c0819:PsiDirectoryNode" />
+              <item name="PasswordForget" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,6 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="/usr/local/lib/node_modules/npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
@@ -227,7 +257,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19420000" />
+    <option name="totallyTimeSpent" value="26025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -317,36 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/PasswordForget/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignIn/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/PasswordChange/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="68" column="48" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Session/context.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -421,16 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignUp/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/.env.local">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -442,16 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/App/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,9 +465,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/constants/roles.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Navigation/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
+        <state relative-caret-position="782">
           <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -495,27 +478,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/App/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/Landing.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="184">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/Landing/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="253">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignUp/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/adventure-finder/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="222">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignIn/SignIn.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/SignIn/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/PasswordForget/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adventure-finder/src/components/PasswordChange/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

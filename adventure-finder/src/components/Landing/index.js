@@ -8,7 +8,8 @@ const Landing = () => (
             <img src={forest} alt={"forest"} />
         </div>
             <div class="text-block">
-                <h1>Welcome to Adventure Finder!</h1>
+                <h1>Welcome to</h1>
+                <h1>Adventure Finder!</h1>
                 <div class="separator"/>
                 <p>Share your favorite adventures.</p>
                 <p>Get inspiration from others.</p>
