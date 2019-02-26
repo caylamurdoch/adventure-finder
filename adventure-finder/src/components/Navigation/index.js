@@ -26,6 +26,9 @@ const NavigationAuth = () => (
         <li className={styles.navListRight}>
             <Link className={styles.text} to={ROUTES.ACCOUNT}>Profile</Link>
         </li>
+        <li className={styles.navListRight}>
+            <Link className={styles.text} to={ROUTES.ADD}>Add Post</Link>
+        </li>
     </ul>
 );
 
