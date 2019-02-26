@@ -33,7 +33,6 @@ class RoutePostForm extends Component {
     }
 
     onSubmit(event) {
-        event.preventDefault();
         if (!event.target.checkValidity()) {
             this.setState({ displayErrors: true });
             return;
@@ -50,17 +49,17 @@ class RoutePostForm extends Component {
             place: this.state.location,
             likes: 0
         };
-        console.log(post);
+        console.log("making post request with val: ",post);
 
         //put in database
-        fetch('users/post/', {
+        fetch('http://localhost:3001/users/posts', {
             method: 'POST',
             body: JSON.stringify(post),
             headers: {
                 'Content-Type': 'application/json'
             }
         });
-
+        console.log("made post request");
         this.props.history.push(ROUTES.HOME);
     }
 

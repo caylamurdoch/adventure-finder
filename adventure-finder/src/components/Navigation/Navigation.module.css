@@ -10,6 +10,11 @@ ul {
     color: #fff;
 }
 
+.text:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 li {
     padding: 15px;
     margin: 0px;

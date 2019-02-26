@@ -57,7 +57,7 @@ router.get('/posts', function(req, res, next) {
 //  console.log("post req",req.body)
 //})
 
-router.post('/post', function(req, res, next) {
+router.post('/posts', function(req, res, next) {
   console.log(req.body);
   var post = new Post(req.body);
   post.save(function(err, post) {

@@ -1,0 +1,98 @@
+.btn {
+    border-radius: 25px;
+    border: 1px solid #140824;
+    background: #140824;
+
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
+    width: 300px;
+
+    color: #eeeeee;}
+
+.btn:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #140824;
+}
+
+.container-feed {
+    background-color: #f2f2f2;
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-feed h1 {
+    padding-bottom: 20px;
+}
+
+.wrap-feed {
+    background: #fff;
+    width: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 50px;
+
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    padding: 10px 10px 20px 10px;
+}
+
+.post {
+
+}
+
+.image-cropper {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    object-fit: cover;
+    width:400px;
+    height:400px;
+}
+
+.separator {
+    height: 2px;
+    width: 100%;
+    margin: 40px 0 20px 0;
+    background: #f2f2f2;
+}
+
+.short-separator {
+    height: 2px;
+    width: 100%;
+    margin: 40px 0 40px 0;
+    background: #f2f2f2;
+    align-content: center;
+}
+
+.stats {
+    border: 2px solid #f2f2f2;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 25px;
+    align-items: center;
+}

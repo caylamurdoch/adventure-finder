@@ -17,29 +17,27 @@ const Navigation = () => (
 
 const NavigationAuth = () => (
     <ul>
-        <li className={styles.navListLeft}>
-            <Link className={styles.text} to={ROUTES.HOME}>Home</Link>
-        </li>
-        <li className={styles.navListRight}>
-            <SignOutButton />
-        </li>
-        <li className={styles.navListRight}>
-            <Link className={styles.text} to={ROUTES.ACCOUNT}>Profile</Link>
-        </li>
-        <li className={styles.navListRight}>
-            <Link className={styles.text} to={ROUTES.ADD}>Add Post</Link>
-        </li>
+        <Link className={styles.text} to={ROUTES.HOME}>
+            <li className={styles.navListLeft}>Home</li>
+        </Link>
+        <li className={styles.navListRight}><SignOutButton /></li>
+        <Link className={styles.text} to={ROUTES.ACCOUNT}>
+            <li className={styles.navListRight}>Account</li>
+        </Link>
+        <Link className={styles.text} to={ROUTES.ADD}>
+            <li className={styles.navListRight}>Add Post</li>
+        </Link>
     </ul>
 );
 
 const NavigationNonAuth = () => (
     <ul>
-        <li className={styles.navListLeft}>
-            <Link className={styles.text} to={ROUTES.LANDING}>Home</Link>
-        </li>
-        <li className={styles.navListRight}>
-            <Link className={styles.text} to={ROUTES.SIGN_IN}>Sign In</Link>
-        </li>
+        <Link className={styles.text} to={ROUTES.LANDING}>
+            <li className={styles.navListLeft}>Home</li>
+        </Link>
+        <Link className={styles.text} to={ROUTES.SIGN_IN}>
+            <li className={styles.navListRight}>Sign In</li>
+        </Link>
     </ul>
 );
 
